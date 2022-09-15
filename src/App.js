@@ -1,10 +1,12 @@
 import React from 'react';
-import Start from './Star/Start';
+import Starpattern from './Star/Starpattern';
+// import Start from './Star/Start';
 
 const App = () => {
   return (
     <div>
-      <Start/>
+      {/* <Start/> */}
+      <Starpattern/>
     </div>
   );
 }
