@@ -1,12 +1,16 @@
 import React from 'react';
-import Starpattern from './Star/Starpattern';
+import NumberPattern from './Star/NumberPattern';
+import Alpabetticpattern from './Star/Alpabetticpattern'
+// import Starpattern from './Star/Starpattern';
 // import Start from './Star/Start';
 
 const App = () => {
   return (
     <div>
       {/* <Start/> */}
-      <Starpattern/>
+      {/* <Starpattern/> */}
+      <NumberPattern/>
+      <Alpabetticpattern/>
     </div>
   );
 }
