@@ -12,7 +12,7 @@ let getContent=()=>{
     }
     return Content
 }
-return<ul>{getContent()}</ul>
+return<h1>{getContent()}</h1>
 
   
 }

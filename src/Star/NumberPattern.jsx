@@ -15,7 +15,7 @@ const NumberPattern = () => {
    
     return (
         <div>
-          <ul>{getNumber()}</ul>  
+          <h1>{getNumber()}</h1>  
         </div>
     );
 }
